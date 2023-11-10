@@ -1,0 +1,170 @@
+*{
+    box-sizing: border-box;
+    font-family: arial;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #451da0;
+    justify-content: space-between;
+    min-height: var(--header-height);
+    box-shadow: 0px 0px 1px rgb(35, 34, 34);
+}
+
+.logo-header {
+    width: 100%;
+    display: inline-block;
+    max-width: 120px;
+    margin: 12px 32px;
+}
+
+ul.items{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    align-items: center;
+}
+
+ul.items > li > a{
+    border-radius: 15px;
+    color: white;
+    margin: 0 16px;
+    padding: 6px;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+ul.items > li > a:hover{
+    color: #000;
+    background-color: #fff;
+}
+.keywords{
+    display: flex;
+}
+.keyword{
+    margin-top: 80px;
+    padding: 15px;
+    box-shadow: 0 10px 15px 3px rgba(9, 7, 7, 0.1);
+    width: 70%;
+}
+.quangcao{
+    width: 30%;
+}
+.quangcao h2{
+    margin-top:100px;
+    display: flex;
+    justify-content: center;
+}
+.quangcao1 img{
+    padding: 25px 25px 0 25px;
+    margin-top: 50px;
+    width: 100%;
+}
+.quangcao1 i{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.quangcao2 img{
+    padding: 25px 25px 0px 25px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+.quangcao2 i{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.quangcao3 img{
+    padding: 25px 25px 0px 25px;
+    margin-top: 50px;
+    width: 100%;
+
+}
+.quangcao3 i{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.keyword h1{
+    text-align: center;
+}
+.keyword p{
+    padding: 8px;
+    font-size: 14px;
+}
+.keyword-4 ul{
+    padding-left: 50px;
+}
+.keyword-4 ul li{
+    font-size: 12px;
+}
+
+
+
+
+
+footer{
+    margin-top: 24px;
+    background-color: #451da0; 
+}
+
+div.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.footer-container h2, .footer-container p{
+    padding: 8px 0;
+}
+
+.footer-container a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.footer-container a:hover {
+    color: aqua;
+}
+
+
+.footer-content2 a{
+    text-decoration: none;
+}
+
+.wrapper_icons{
+
+    justify-content: space-evenly;
+}
+
+.wrapper_icons a{
+    padding: 8px 12px;
+}
+.wrapper_icons a i{
+    color: #fff;
+}
+.wrapper_icons a i:hover{
+
+   transform: scale(1.2);
+   transition: 0.5s;
+}
+
+.wrapper_icons a i{
+    font-size: 28px;
+}
+
+.wrapper_icons i{
+    color: #451da0;
+}
